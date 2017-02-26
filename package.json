@@ -26,9 +26,9 @@
   "author": "Chris Gruber",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chrisgruber/webpack-react-redux-boilerplate/issues"
+    "url": "https://github.com/gruberchris/webpack-react-redux-boilerplate/issues"
   },
-  "homepage": "https://github.com/chrisgruber/webpack-react-redux-boilerplate#readme",
+  "homepage": "https://github.com/gruberchris/webpack-react-redux-boilerplate#readme",
   "nyc": {
     "include": [
       "app/**"
