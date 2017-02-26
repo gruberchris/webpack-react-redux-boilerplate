@@ -10,7 +10,7 @@ function setup() {
   return shallow(<App />);
 }
 
-test('example test 1', (t) => {
+test('example test 1', function (t) {
   const wrapper = setup();
 
   t.equal(wrapper.contains(<span>Foo</span>), false);

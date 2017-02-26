@@ -1,15 +1,18 @@
 {
   "presets": ["es2015", "stage-0", "react"],
+  "sourceMaps": true,
   "env": {
     "test": {
       "compact": false,
       "plugins": [
         [
-          "istanbul", {
-          "exclude": [
-            "tests/**/*.*"
-          ]
-        }]
+          "istanbul",
+          "transform-es2015-arrow-functions", {
+            "exclude": [
+              "tests/**/*.*"
+            ]
+          }
+        ]
       ]
     }
   }
